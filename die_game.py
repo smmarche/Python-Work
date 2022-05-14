@@ -1,4 +1,8 @@
-#This program is a program to play a Die game.
+#This program is a program simulates a die-rolling game for two players.
+#The players roll three dice, and the program adds the sides that turn up.
+#After the first roll of the three dice, a player can roll the dice until the player gets at least one side 2 from a dice.
+#When a player gets at least one side 2 from the dice, that player's score drops to zero, and the turn switches to the other player.
+#Both players play the game for an equal number of turns, and the player who gets a score higher than 18 wins.
 
 import random
 
