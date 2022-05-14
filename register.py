@@ -1,9 +1,5 @@
-# File: register.py
-# Author: Mia Marche
-# Date: 2/12/2022
-# Section: 589
-# E-mail: miamarche@tamu.edu
-# Description: This program registers someone for a library membership.
+
+# The program outputs the member’s formatted information.
 
 print("Welcome to the Library Management App.")
 print("Member registration")
