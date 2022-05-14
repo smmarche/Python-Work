@@ -1,9 +1,6 @@
-# File: password.py
-# Author: Mia Marche
-# Date: 2/12/2022
-# Section: 589
-# E-mail: miamarche@tamu.edu
-# Description: This program generates a password for the user.
+# This program generates a password for the user based on the information provided.
+
+
 print("Welcome to the Library Management App.")
 print("Password generation")
 last_name = input("Enter the member's last name: ")
