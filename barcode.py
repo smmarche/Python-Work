@@ -1,10 +1,6 @@
-# File: barcode.py
-# Author: Mia Marche
-# Date: 03/10/2022
-# Section: 589
-# E-mail: miamarche@tamu.edu
-# Description:This program calculates the Kronecker product to get a random barcode
-# e.g., This program asks for ...
+#This program calculates the Kronecker product to get a random barcode
+# This could be used as a barcode system to keep track of all books to manage the inventory.
+
 import random
 valid_matrix_input_A = False
 valid_matrix_input_B = False
