@@ -1,9 +1,8 @@
-# File: manage.py
-# Author: Mia Marche
-# Date: 3/22/2022
-# Section: 589
-# E-mail: miamarche@tamu.edu
-# Description: This program gets the book information from the user store and prints them.
+
+# The program will get the book's type, title, publication year, first author's name, and publisher name.
+# The user can enter any book type, and the program stores all of the related information and retrieves them.
+# Next, the program prints book information based on the "type" and the publication "year".
+
 book_information = {}
 #!?WHAT IF USER ENTERS DONE AT ANY LEVEL?
 input_not_done = True
