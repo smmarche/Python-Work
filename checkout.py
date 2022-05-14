@@ -1,9 +1,5 @@
-# File: checkout.py
-# Author: Mia Marche
-# Date: 3/22/2022
-# Section: 589
-# E-mail: miamarche@tamu.edu
-# Description: This module prints a menu repeatedly for a user to check out
+
+# This module prints a menu repeatedly for a user to check out
 # books from the library until the user quits the program.
 #Program repeats until the user enters quit so used a while loop
 quit_menu = False
