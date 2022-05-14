@@ -1,9 +1,4 @@
-# File: rates.py
-# Author: Mia Marche
-# Date: 2/12/2022
-# Section: 589
-# E-mail: miamarche@tamu.edu
-# Description: This program displays rates of membership.
+# The application displays rates of membership for a library card.
 import math
 print("Welcome to the Library Management App.")
 print("Membership rates")
