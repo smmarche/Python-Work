@@ -1,3 +1,6 @@
+#This program reads a file passwords.txt that contains multiple passwords 
+#and checks the validity of the passwords.
+
 def validate(password):
     """Validates a password a returns a boolean that determines if the password is valid of invalid"""
     is_valid = False
