@@ -1,3 +1,6 @@
+# This program prompts a user for three coefficients a, b, and c (comma-separated). Then, it plots
+# linear and quadratic equations with the a, b, and c. It creates a directory called equations and saves
+# the file as a png within equations. The graph has a title, legend, grid, and axis labels.
 import os
 import matplotlib.pyplot as drawing
 
