@@ -1,3 +1,5 @@
+#This program asks a user for two integers a and b and performs the following operations:
+
 int_a = int(input("Enter a: "))
 int_b = int(input("Enter b: "))
 print(f"{int_a} in binary: {bin(int_a)}")
