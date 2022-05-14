@@ -1,10 +1,5 @@
-# File: sorting.py
-# Author: Mia Marche
-# Date: 03/10/2022
-# Section: 589
-# E-mail: miamarche@tamu.edu
-# Description: This program sorts books alphabetically, year published, and barcode number.
-# e.g., This program asks for ...
+# This program sorts books alphabetically, year published, and barcode number.
+
 
 #ask the user for how many books they will enter
 number_book_titles = int(input("Enter the number of book titles: "))
