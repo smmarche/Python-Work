@@ -48,16 +48,16 @@ def dictionary_of_student_scores():
 
 def option_1():
     """This allows a file to be read and saved into a dictionary."""
-    path = './grades.csv'
+    path = input("Enter the full path of the CSV file you would like read: ")
     with open(path) as file:
-        csv_list = csv.reader(file, delimiter=',')
-        for i, row in enumerate(csv_list):
-            if i != 0:
-                grades[row[0]] = [float(item) for index, item in enumerate(row) if index != 0]
-    print()
-    # Notify user the file has been read
-    print("Read the csv file.")
-
+        if not os.path.exists(path):
+            print("Either the file doesn't exist or you don't have the correct permissions to access it.")
+        else:
+            csv_list = csv.reader(file, delimiter=',')
+            for i, row in enumerate(csv_list):
+                if i != 0:
+                    grades[row[0]] = [float(item) for index, item in enumerate(row) if index != 0]
+            print("Read the csv file.")
     print()
 
 
